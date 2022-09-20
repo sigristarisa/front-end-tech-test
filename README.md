@@ -1,8 +1,3 @@
----
-title: Hirespace Front-end tech test
-author: Tom Brown
----
-
 # Hirespace Front end Tech test
 
 Provided in this repository should be all the files required in order to get started with the front-end tech test for Hirespace. 
