@@ -25,6 +25,6 @@ The form itself should not do anything but output it's content to the console wh
 
 ## Finished
 
-When you've finished, upload it to repository or zip it. Then send the link/file to thomas@hirespace.com.
+When you've finished, upload it to repository or zip it. Then send the link/zip to the contact email.
 
-If you have any questions; also feel free to email me and I'll get back to you as soon as possible.
+If you have any questions; feel free to email me at thomas@hirespace.com and I'll get back to you as soon as possible.
