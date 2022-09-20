@@ -13,16 +13,18 @@ Aim to spend around 2 hours at most on the project but there is no strict time l
 
 Above you should see a one page design (Ask_Expert_Example.png if not displayed). The task is to recreate this page in HTML / CSS / Javascript. It's advisable you use a framework to assist you with this; but is not strictly required.
 
-### Stepper
+Some images have been provided, although many can be achieved easier via styling - use them as you feel required to help with the task.
+
+Take into consideration the different types of resolutions which could access such a page and have the page adapt in the best way you see how.
+
+The form itself should not do anything but output it's content to the console when clicking the "Next" button.
+
+### **Stepper**
 
 (Event details - (2) Event date / time - (3) Contact details) Does not need implementing, you may include the elements in your page but it does not need to switch to a different page or have any funcitonality.
-
-
-### Form
-
-All the fields need to be present, any drop downs can be populated with any data you like. **Upon clicking "Next" it should print the content of the form to the console**.
-
 
 ## Finished
 
 When you've finished, upload it to repository or zip it. Then send the link/file to thomas@hirespace.com.
+
+If you have any questions; also feel free to email me and I'll get back to you as soon as possible.
