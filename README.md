@@ -1,6 +1,5 @@
 ---
 title: Hirespace Front-end tech test
-layout: blog
 author: Tom Brown
 ---
 
