@@ -1,30 +1,70 @@
-# Hirespace Front end Tech test
+# Getting Started with Create React App
 
-Provided in this repository should be all the files required in order to get started with the front-end tech test for Hirespace. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Clone this repository. From there you are free to build this project in anyway you want. Feel free to use frameworks, libraries or anything you think would assist you in the development of the task.
+## Available Scripts
 
-Aim to spend around 2 hours at most on the project but there is no strict time limit. The end result does not need to be production ready but should be representative of your work.
+In the project directory, you can run:
 
+### `npm start`
 
-## **The task**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![Page layout](Ask_Expert_Example.png)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Above you should see a one page design (Ask_Expert_Example.png if not displayed). The task is to recreate this page in HTML / CSS / Javascript. It's advisable you use a framework to assist you with this; but is not strictly required.
+### `npm test`
 
-Some images have been provided, although many can be achieved easier via styling - use them as you feel required to help with the task.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Take into consideration the different types of resolutions which could access such a page and have the page adapt in the best way you see how.
+### `npm run build`
 
-The form itself should not do anything but output it's content to the console when clicking the "Next" button.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### **Stepper**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-(Event details - (2) Event date / time - (3) Contact details) Does not need implementing, you may include the elements in your page but it does not need to switch to a different page or have any funcitonality.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Finished
+### `npm run eject`
 
-When you've finished, upload it to repository or zip it. Then send the link/zip to the contact email.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you have any questions; feel free to email me at thomas@hirespace.com and I'll get back to you as soon as possible.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
