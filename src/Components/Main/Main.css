@@ -15,6 +15,25 @@ aside {
   line-height: 1.5em;
 }
 
+/* STEPPER */
+
+.stepper-list {
+  gap: 12px;
+}
+
+.stepper-item {
+  gap: 8px;
+}
+
+.checked {
+  font-weight: 700;
+}
+
+.horizontal-line {
+  height: 1px;
+  border: var(--border-color) solid 0.5px;
+}
+
 /* MAIN IMAGE */
 .main-image_container {
   height: 90%;
