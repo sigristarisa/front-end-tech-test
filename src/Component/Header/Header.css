@@ -1,0 +1,16 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  padding: 2vh 2vw;
+  border-bottom: var(--border-color) 1px solid;
+}
+
+.header-logo_container {
+  width: 12%;
+  height: auto;
+}
+
+.header-logo {
+  width: 100%;
+  height: auto;
+}
