@@ -1,5 +1,6 @@
 import MainText from "./MainText";
 import Stepper from "./Stepper";
+import Form from "./Form";
 import MainImage from "./MainImage";
 import "./Main.css";
 
@@ -9,6 +10,7 @@ const Main = () => {
       <aside>
         <MainText />
         <Stepper />
+        <Form />
       </aside>
       <aside>
         <MainImage />
