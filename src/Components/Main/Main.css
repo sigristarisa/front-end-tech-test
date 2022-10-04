@@ -1,21 +1,26 @@
 main {
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
+  gap: 2vw;
   padding: 2vh 2vw;
-  gap: 20px;
-  border: red solid 1px;
 }
 
 aside {
-  height: 80vh;
+  width: 48vw;
+  height: 85vh;
 }
 
 /* MAIN TEXT */
 .main-text_container {
+  height: 20%;
+  margin-bottom: 32px;
   line-height: 1.5em;
 }
 
 /* STEPPER */
+.stepper_container {
+  height: 10%;
+}
 
 .stepper-list {
   gap: 12px;
@@ -32,6 +37,47 @@ aside {
 .horizontal-line {
   height: 1px;
   border: var(--border-color) solid 0.5px;
+}
+
+/* FORM */
+.form_container {
+  width: 100%;
+  height: 60%;
+}
+
+.form_top-container {
+  gap: 8px;
+}
+
+.form-input_container {
+  width: 100%;
+}
+
+.form-input_container input,
+.form-input_container select {
+  width: 100%;
+  height: 44px;
+  padding: 4px;
+  border: solid 1px var(--border-color);
+  border-radius: 4px;
+}
+
+.select-item-default,
+.form-input_container input::placeholder,
+.form-input_container select::placeholder,
+.form-input_container label {
+  color: var(--border-color);
+}
+
+.form-input_container textarea {
+  width: 100%;
+  height: 100%;
+  border: solid 1px var(--border-color);
+  border-radius: 4px;
+}
+
+.checkbox_container {
+  gap: 12px;
 }
 
 /* MAIN IMAGE */

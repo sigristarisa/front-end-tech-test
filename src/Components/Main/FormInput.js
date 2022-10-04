@@ -8,9 +8,9 @@ const FormInput = ({
   onChange,
 }) => {
   return (
-    <div>
+    <div className='form-input_container'>
       {type === "checkbox" ? (
-        <div>
+        <div className='checkbox_container two-grid-columns_extend-two align-items_center'>
           <input
             id={type}
             name={name}
