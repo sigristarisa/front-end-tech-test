@@ -7,7 +7,6 @@ import {
   venueLayout,
   venueStyle,
 } from "../../helpers/FormSelectItems";
-
 import { formInitialState } from "../../helpers/initialStates";
 
 const Form = () => {

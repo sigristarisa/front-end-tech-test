@@ -1,10 +1,10 @@
 const SelectItem = ({ label, name, selectItemArr, onChange }) => {
   return (
     <div>
-      <select label={label} name={name} onChange={onChange}>
+      <select label={label} name={name} onChange={onChange} value=''>
         {selectItemArr.map((selectItem, index) => {
           return index === 0 ? (
-            <option value={selectItem} key={index} disabled>
+            <option value='' key={index} disabled={true}>
               {selectItem}
             </option>
           ) : (
