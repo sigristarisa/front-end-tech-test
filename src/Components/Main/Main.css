@@ -3,6 +3,7 @@ main {
   height: 85vh;
   gap: 2vw;
   padding: 2vh 2vw;
+  border: solid 1px green;
 }
 
 aside {
