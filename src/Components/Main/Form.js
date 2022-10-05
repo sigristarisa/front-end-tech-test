@@ -48,7 +48,7 @@ const Form = () => {
           <FormInput
             name={"number_of_people"}
             value={formInput.number_of_people}
-            type='text'
+            type='number'
             placeholder={"Number of people"}
             onChange={handleChange}
           />

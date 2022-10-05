@@ -7,7 +7,7 @@ import "./Main.css";
 const Main = () => {
   return (
     <main className='main_container two-grid-columns_extend-one'>
-      <aside className='main_left-container align-items_center'>
+      <aside className='main_left-container align-items_start'>
         <MainText />
         <Stepper />
         <Form />

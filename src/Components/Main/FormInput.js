@@ -28,6 +28,7 @@ const FormInput = ({
           min={min}
           placeholder={placeholder}
           onChange={onChange}
+          required
         />
       )}
     </div>
