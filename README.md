@@ -19,4 +19,4 @@ A simple inquiry form clone from HireSpace that allows users to add inputs. Assi
 - CSS
 
 ### Deployed Application
-You can access the deployed application from [here]()
+You can access the deployed application from [here](https://sigristarisa.github.io/front-end-tech-test/)
