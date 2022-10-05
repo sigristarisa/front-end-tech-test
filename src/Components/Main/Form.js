@@ -26,6 +26,9 @@ const Form = () => {
   };
   return (
     <div className='form_container'>
+      <div>
+        <h2>Your Event Detail</h2>
+      </div>
       <form onSubmit={handleSubmit}>
         <div className='form_top-container two-grid-columns'>
           <FormSelectItem
@@ -88,7 +91,7 @@ const Form = () => {
             onChange={handleChange}
           ></textarea>
         </div>
-        <div className='submit-button_container align-self justify-items_end'>
+        <div className='submit-button_container justify-items_end'>
           <input className='submit-button' type='submit' value='Next' />
         </div>
       </form>

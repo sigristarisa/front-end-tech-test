@@ -6,13 +6,13 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <main className='two-grid-columns'>
-      <aside className='place-items_center'>
+    <main className='main_container two-grid-columns_extend-one'>
+      <aside className='main_left-container align-items_center'>
         <MainText />
         <Stepper />
         <Form />
       </aside>
-      <aside className='place-items_center'>
+      <aside className='main_right-container'>
         <MainImage />
       </aside>
     </main>

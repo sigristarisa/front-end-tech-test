@@ -1,12 +1,13 @@
 header {
   width: 100vw;
   height: 10vh;
-  padding: 1vh 2vw;
+  padding: 0 4vh;
+  margin-bottom: 1vh;
   border-bottom: var(--border-color) 1px solid;
 }
 
 .header-logo_container {
-  width: 144px;
+  width: 160px;
 }
 
 .header-logo {

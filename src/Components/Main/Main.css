@@ -1,20 +1,15 @@
-main {
+.main_container {
   width: 100vw;
   height: 85vh;
-  gap: 2vw;
-  padding: 2vh 2vw;
-  border: solid 1px green;
+  padding: 0 4vh;
+  gap: 4vw;
+  overflow: scroll;
 }
 
-aside {
+.main_left-container,
+.main_right-container {
   width: 100%;
   height: 85vh;
-  /* border: solid 1px blue; */
-}
-
-/* MAIN TEXT */
-.main-text_container {
-  line-height: 1.5em;
 }
 
 /* STEPPER */
@@ -42,26 +37,20 @@ aside {
 }
 
 /* FORM */
-.form_container {
-  width: 100%;
-  height: 100%;
-  border: solid blue 1px;
-}
-
 .form_top-container {
-  gap: 8px;
+  gap: 1vh;
 }
 
 .form-input_container,
 .submit-button_container {
   width: 100%;
-  border: red solid 1px;
+  margin-bottom: 1vh;
 }
 
 .form-input_container input,
 .form-input_container select {
   width: 100%;
-  height: 44px;
+  height: 32px;
   padding: 4px;
   border: solid 1px var(--border-color);
   border-radius: 4px;
@@ -76,7 +65,6 @@ aside {
 
 .form-input_container textarea {
   width: 100%;
-  height: 100%;
   font-family: "Source Sans Pro", sans-serif;
   border: solid 1px var(--border-color);
   border-radius: 4px;
@@ -98,10 +86,12 @@ aside {
 
 /* MAIN IMAGE */
 .main-image_container {
+  width: 100%;
   height: 100%;
 }
 
 .main-image_container img {
-  height: 70%;
-  object-fit: cover;
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
 }
