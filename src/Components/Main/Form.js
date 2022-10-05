@@ -88,7 +88,9 @@ const Form = () => {
             onChange={handleChange}
           ></textarea>
         </div>
-        <input type='submit' value='Next' />
+        <div className='submit-button_container align-self justify-items_end'>
+          <input className='submit-button' type='submit' value='Next' />
+        </div>
       </form>
     </div>
   );

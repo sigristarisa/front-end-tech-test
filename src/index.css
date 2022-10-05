@@ -2,6 +2,7 @@
 
 html {
   --border-color: rgb(160, 158, 158);
+  --btn-color: rgb(245, 245, 245);
 }
 
 * {
@@ -20,6 +21,10 @@ ul {
   padding: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .two-grid-columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -28,6 +33,11 @@ ul {
 .two-grid-columns_extend-two {
   display: grid;
   grid-template-columns: auto 1fr;
+}
+
+.two-grid-columns_extend-one {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
 }
 
 .three-grid-columns {
@@ -40,9 +50,28 @@ ul {
   grid-template-columns: auto auto 1fr;
 }
 
+.justify-items_center {
+  display: grid;
+  justify-items: center;
+}
+
+.justify-items_end {
+  display: grid;
+  justify-items: end;
+}
+
+.align-items_start {
+  display: grid;
+  align-items: start;
+}
+
 .align-items_center {
   display: grid;
   align-items: center;
+}
+
+.align-self {
+  align-self: end;
 }
 
 .place-items_center {

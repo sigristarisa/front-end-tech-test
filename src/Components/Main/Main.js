@@ -7,12 +7,12 @@ import "./Main.css";
 const Main = () => {
   return (
     <main className='two-grid-columns'>
-      <aside>
+      <aside className='place-items_center'>
         <MainText />
         <Stepper />
         <Form />
       </aside>
-      <aside>
+      <aside className='place-items_center'>
         <MainImage />
       </aside>
     </main>

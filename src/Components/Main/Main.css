@@ -6,27 +6,28 @@ main {
 }
 
 aside {
-  width: 48vw;
+  width: 100%;
   height: 85vh;
+  /* border: solid 1px blue; */
 }
 
 /* MAIN TEXT */
 .main-text_container {
-  height: 20%;
-  margin-bottom: 32px;
   line-height: 1.5em;
 }
 
 /* STEPPER */
 .stepper_container {
-  height: 10%;
+  width: 100%;
 }
 
 .stepper-list {
+  margin: 0;
   gap: 12px;
 }
 
 .stepper-item {
+  height: 100%;
   gap: 8px;
 }
 
@@ -42,15 +43,18 @@ aside {
 /* FORM */
 .form_container {
   width: 100%;
-  height: 60%;
+  height: 100%;
+  border: solid blue 1px;
 }
 
 .form_top-container {
   gap: 8px;
 }
 
-.form-input_container {
+.form-input_container,
+.submit-button_container {
   width: 100%;
+  border: red solid 1px;
 }
 
 .form-input_container input,
@@ -81,11 +85,22 @@ aside {
   gap: 12px;
 }
 
+.submit-button {
+  width: 64px;
+  height: 32px;
+  font-weight: 700;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 /* MAIN IMAGE */
 .main-image_container {
-  height: 90%;
+  height: 100%;
 }
 
 .main-image_container img {
-  height: 100%;
+  height: 70%;
+  object-fit: cover;
 }
